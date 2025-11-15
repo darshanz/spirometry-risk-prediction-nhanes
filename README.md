@@ -1,12 +1,6 @@
 # Spirometry Modeling: Segmented Regression
-
-
-### Contents
-
-
-### Dataset
-Refined NHANES Spirometry (public):  
-https://data.mendeley.com/datasets/dwjykg3xww/1
+ 
+Implementation of segmented regression to model spirometry measures with Exploratoory Data Analysis EDA, feature engineering for clinical data interpretation.
 
 ###  Objective 
 
@@ -22,6 +16,10 @@ The project focuses on:
 - **Validation:** residual analysis
 
 
+
+### Dataset
+[Refined NHANES Spirometry (publicly available)](https://data.mendeley.com/datasets/dwjykg3xww/1) 
+ Contributor: Gerald Zavorsky
 
 ### Highlights
 
@@ -45,7 +43,8 @@ The project focuses on:
 
 ![image](images/eda_plot1.png)
 
-[Detailed EDA in : 01. Exploratory Data Analysis] ()
+
+[See  **01. Exploratory Data Analysis** For EDA Details](https://github.com/darshanz/spirometry-risk-prediction-nhanes/blob/main/notebooks/01_Exploratory%20Data%20Analysis.ipynb)
 
 
 #### Segmented Regression (SLR):
@@ -60,11 +59,15 @@ The project focuses on:
 
 ![image](images/slr_results.png)
 
-[Detailed EDA in : 02. Segmented Linear Regression] ()
+[See **02. Segmented Linear Regression** for details.](https://github.com/darshanz/spirometry-risk-prediction-nhanes/blob/main/notebooks/02.%20Segmented%20Linear%20Regression.ipynb)
 
 
 #### Note: 
-This project is an attempt to replicate (using Python)  and to extend the 2024 study by Gerald Stanley Zavorsky. 
+The methodology in used in this repo is based on the experiments described in the following paper. Instead of R pckages used in the orgiginal study python alternatives have been used.
 
 **“A refined spirometry dataset for comparing segmented (piecewise) linear models to that of GAMLSS.”**  
 PubMed: https://pubmed.ncbi.nlm.nih.gov/39736902/
+
+
+### Acknowledgements
+Dataset curators of the 2024 refined NHANES spirometry dataset and authors of the comparison study.
