@@ -63,11 +63,13 @@ The project focuses on:
 
 
 #### Note: 
-The methodology in used in this repo is based on the experiments described in the following paper. Instead of R pckages used in the orgiginal study python alternatives have been used.
-
-**“A refined spirometry dataset for comparing segmented (piecewise) linear models to that of GAMLSS.”**  
-PubMed: https://pubmed.ncbi.nlm.nih.gov/39736902/
+The methodology in used in this repo is based on the experiments described in [the paper by Zavorsky GS]( https://pubmed.ncbi.nlm.nih.gov/39736902/)[1] . Instead of R pckages used in the orgiginal study python alternatives have been used.
 
 
 ### Acknowledgements
-Dataset curators of the 2024 refined NHANES spirometry dataset and authors of the comparison study.
+Dataset curators of the 2024 refined NHANES spirometry dataset and authors of the comparison study.[1]
+
+
+REFERENCES
+
+[1] Zavorsky GS. A refined spirometry dataset for comparing segmented (piecewise) linear models to that of GAMLSS. Data Brief. 2024 Oct 23;57:111062. doi: 10.1016/j.dib.2024.111062. PMID: 39736902; PMCID: PMC11684394.
